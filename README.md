@@ -2,7 +2,7 @@
 
 Projeto Final do Curso de JavaScript da Origamid.
 
-## Tecnologias Usadas.
+## Tecnologias usadas.
 
 * HTML
 * CSS
