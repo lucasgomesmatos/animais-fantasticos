@@ -2,7 +2,7 @@ import ScrollSuave from "./modules/ScrollSuave.js";
 import AccordionList from "./modules/AccordionList.js";
 import TabNav from "./modules/TabNav.js";
 import initTooltip from "./modules/tooltip.js";
-import Modal from "./modules/Modal.js";
+import Modal from "./modules/Modal";
 import initDropdownMenu from "./modules/dropdown-menu.js";
 import initMenuMobile from "./modules/menu-mobile.js";
 import initFuncionamento from "./modules/funcionamento.js";
