@@ -14,6 +14,8 @@
     "rules": {
         "no-console": 0,
         "no-param-reassign": 0,
-        "import/extensions": 0
+        "import/extensions": 0,
+        "import/no-extraneous-dependencies": 0
+        // eslint-disable-next-line import/no-named-as-default
     }
 }
