@@ -17,7 +17,7 @@
 
 
 .modal {
-  min-width: 300px;
+  min-width: 260px;
   background: #fff;
   padding: 40px;
   border: 10px solid #fb5;
@@ -90,3 +90,4 @@
 .modal button[type="submit"]:hover {
   opacity: 1;
 }
+
