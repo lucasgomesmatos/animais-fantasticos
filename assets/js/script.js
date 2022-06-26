@@ -1,13 +1,13 @@
 import ScrollSuave from "./modules/ScrollSuave.js";
 import AccordionList from "./modules/AccordionList.js";
-import TabNav from "./modules/TabNav.js";
+import TabNav from "./modules/Tabnav.js";
 import Tooltip from "./modules/Tooltip.js";
 import Modal from "./modules/Modal";
 import fetchAnimais from "./modules/fetchAnimais.js";
 import ScrollAnima from "./modules/ScrollAnima.js";
 import DropdownMenu from "./modules/DropdownMenu.js";
 import MenuMobile from "./modules/MenuMobile.js";
-import initFuncionamento from "./modules/funcionamento.js";
+import Funcionamento from "./modules/Funcionamento.js";
 import fetchBitcoin from "./modules/fetchBitcoin.js";
 
 const scrollSuave = new ScrollSuave(`[data-menu="suave"] a[href^="#"]`);
@@ -45,4 +45,5 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-initFuncionamento();
+const funcionamento = new Funcionamento("[data-semana]","aberto");
+funcionamento.init();
