@@ -7,10 +7,12 @@ import fetchAnimais from "./modules/fetchAnimais.js";
 import ScrollAnima from "./modules/ScrollAnima.js";
 import DropdownMenu from "./modules/DropdownMenu.js";
 import MenuMobile from "./modules/MenuMobile.js";
+// eslint-disable-next-line import/no-unresolved
 import Funcionamento from "./modules/Funcionamento.js";
+import SlideNav from "./modules/Slide.js";
 import fetchBitcoin from "./modules/fetchBitcoin.js";
 
-const scrollSuave = new ScrollSuave(`[data-menu="suave"] a[href^="#"]`);
+const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
 scrollSuave.init();
 
 const accordion = new AccordionList('[data-anime="accordion"] dt', "ativo");
@@ -45,5 +47,10 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile('[data-menu="button"]', '[data-menu="list"]');
 menuMobile.init();
 
-const funcionamento = new Funcionamento("[data-semana]","aberto");
+const funcionamento = new Funcionamento("[data-semana]", "aberto");
 funcionamento.init();
+
+const slide = new SlideNav(".slide", ".slide-wrapper");
+slide.init();
+// slide.addArrow(".prev", ".next")
+slide.addControl(".custom-controls");
